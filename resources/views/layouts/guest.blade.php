@@ -12,10 +12,16 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @livewireStyles
     </head>
+
     <body>
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        
+        <script src="node_modules/@themesberg/flowbite/dist/flowbite.bundle.js"></script>
+        @livewireScripts
     </body>
+
 </html>
