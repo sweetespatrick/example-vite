@@ -7,7 +7,7 @@ use App\Models\User;
 
 class Search extends Component
 {
-    public $query;
+    public $query = "Search Here";
     public $users;
 
     public function search()

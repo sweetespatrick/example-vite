@@ -1,12 +1,13 @@
 import './bootstrap';
 import '../css/app.css'; 
+import 'pikaday/css/pikaday.css';
 
 import Alpine from 'alpinejs';
-
+import pikaday from 'pikaday';
+window.Pikaday = pikaday;
 window.Alpine = Alpine;
 
 Alpine.start();
-
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
