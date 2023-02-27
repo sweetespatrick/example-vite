@@ -3,13 +3,15 @@
 
 <x-guest-layout>
   
-  <livewire:drop-down2>
+  <livewire:drop-down2/>
   <br>
-  <livewire:search>
+  <livewire:search/>
   <br>
-  <livewire:upload-photos>
+  <livewire:upload-photos/>
     <br>
-  <livewire:date-picker>
+  <livewire:date-picker/>
+  <br>
+  <livewire:date-pickerexam/>
   
 </x-guest-layout>
 
