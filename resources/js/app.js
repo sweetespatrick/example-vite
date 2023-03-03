@@ -4,6 +4,7 @@ import 'pikaday/css/pikaday.css';
 
 import Alpine from 'alpinejs';
 import pikaday from 'pikaday';
+import * as te from 'tw-elements';
 window.Pikaday = pikaday;
 window.Alpine = Alpine;
 

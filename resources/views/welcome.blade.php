@@ -8,7 +8,7 @@
   <livewire:search/>
   <br>
   <livewire:upload-photos/>
-    <br>
+  <br>
   <livewire:date-picker/>
   <br>
   <livewire:date-pickerexam/>

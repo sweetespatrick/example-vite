@@ -1,0 +1,2 @@
+
+<livewire:static-pages.home/>
