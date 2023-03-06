@@ -197,6 +197,7 @@ data-te-navbar-ref>
 
     <div >
       @yield('content')
+      @include('layouts.footer')
     </div>
   @livewireScripts
   </body>
