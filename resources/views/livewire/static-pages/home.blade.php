@@ -15,7 +15,7 @@
     </p>
 
     <p>
-        <button class="border-1 hover:rounded-lg w-24 bg-green-400 rounded-full" onclick="window.open('/register')" >现在注册</button>
+        <button class="border-1 hover:rounded-lg w-24 bg-green-400 rounded-full" onclick="window.open('{{ route('register')}}')" >现在注册</button>
     </p>
 
   </div>

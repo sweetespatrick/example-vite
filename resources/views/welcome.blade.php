@@ -1,8 +1,7 @@
-<x-drop-down/>
 
+@extends('layouts.default')
 
-<x-guest-layout>
-  
+@section('content')
   <livewire:drop-down2/>
   <br>
   <livewire:search/>
@@ -11,9 +10,10 @@
   <br>
   <livewire:date-picker/>
   <br>
-  <livewire:date-pickerexam/>
-  
-</x-guest-layout>
+  <livewire:date-pickerexam/> 
+@stop
+
+
 
 
 
